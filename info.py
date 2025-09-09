@@ -3,9 +3,9 @@ import psutil
 
 print("Name of the computer: ", socket.gethostname())
 hostname = socket.gethostname()
-print()
-print("IP-address: ",socket.gethostbyname_ex(hostname)[2][1])
-print()
+#print()
+#print("IP-address: ",socket.gethostbyname_ex(hostname)[2][1])
+#print()
 def get_ram_info():
     ram = psutil.virtual_memory()
     total_ram = ram.total #Total RAM installed
